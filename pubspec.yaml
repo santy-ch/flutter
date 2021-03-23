@@ -82,8 +82,8 @@ flutter:
    - assets/img/fisica.jpg
    - assets/img/pais.jpg
    - assets/img/seguridad.jpg
+   - assets/img/ejemplo1.jpg
    
-
   fonts:
     - family: Anton
       fonts:

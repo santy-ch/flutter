@@ -28,7 +28,18 @@ class Informacion1 extends StatelessWidget {
           ],
         ),
       ),
-      
+      Container(
+        margin: EdgeInsets.only(top: 340, left: 50),
+        child: FlatButton(          
+                            child: Row(
+                              children: [
+                                Icon(Icons.arrow_left, color: Colors.black, size: 60.0,),
+                                Icon(Icons.arrow_left, color: Colors.black, size: 60.0,),
+                                Icon(Icons.arrow_right, color: Colors.black, size: 60.0,),
+                                Icon(Icons.arrow_right, color: Colors.black, size: 60.0,)
+                              ],),
+                            onPressed: ()=>{ }),
+      ),
       Container(
         margin: EdgeInsets.only(top: 390, left: 10),
             child: Text("5 COSAS QUE DEBERIAS SABER SOBRE LA INGENIERIA SOCIAL", textAlign: TextAlign.center, style:TextStyle(fontSize: 35.0, fontWeight: 

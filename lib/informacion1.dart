@@ -30,19 +30,17 @@ class Informacion1 extends StatelessWidget {
       ),
       Container(
         margin: EdgeInsets.only(top: 340, left: 50),
-        child: FlatButton(          
-                            child: Row(
+        child: Row(
                               children: [
                                 Icon(Icons.arrow_left, color: Colors.black, size: 60.0,),
                                 Icon(Icons.arrow_left, color: Colors.black, size: 60.0,),
                                 Icon(Icons.arrow_right, color: Colors.black, size: 60.0,),
                                 Icon(Icons.arrow_right, color: Colors.black, size: 60.0,)
                               ],),
-                            onPressed: ()=>{ }),
       ),
       Container(
         margin: EdgeInsets.only(top: 390, left: 10),
-            child: Text("5 COSAS QUE DEBERIAS SABER SOBRE LA INGENIERIA SOCIAL", textAlign: TextAlign.center, style:TextStyle(fontSize: 35.0, fontWeight: 
+            child: Text("5 COSAS QUE DEBERIAS SABER SOBRE LA INGENIERÍA SOCIAL", textAlign: TextAlign.center, style:TextStyle(fontSize: 35.0, fontWeight: 
               FontWeight.bold), 
               ),
             ),
@@ -82,7 +80,7 @@ class Cardimg1 extends StatelessWidget{
           height: 150.0,
           margin: EdgeInsets.only(top: 270.0, left: 70.0), 
           child: Padding(padding: const EdgeInsets.all(20.0),
-          child: Text("FISICA Y DIGITAL",style: TextStyle(fontSize: 30.0, color:Colors.white, fontWeight: FontWeight.bold))),
+          child: Text("FÍSICA Y DIGITAL",style: TextStyle(fontSize: 30.0, color:Colors.white, fontWeight: FontWeight.bold))),
           )
     ]  
         );

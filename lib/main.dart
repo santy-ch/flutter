@@ -93,7 +93,7 @@ Widget concepto (){
     child: Column(
           children: <Widget>[
             Container(
-              child: Text("Concepto basico", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 35.0, fontWeight: 
+              child: Text("Concepto básico", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 35.0, fontWeight: 
               FontWeight.bold),
               ),
             ),

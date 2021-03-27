@@ -24,7 +24,7 @@ class _InformacionState extends State<Informacion> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        title:Text("Informacion detallada"),
+        title:Text("Información detallada"),
         ),
         
         body: _paginas[_paginaActual],
